@@ -1,0 +1,26 @@
+{
+    "name": "donghai/blog",
+    "keywords": ["blog", "php"],
+    "descripthon": "A simple blog",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Donghaichen",
+            "email": "chendonghai888@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^5.2"
+    },
+    "require-dev": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    }
+
+}
