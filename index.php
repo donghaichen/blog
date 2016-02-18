@@ -1,2 +1,4 @@
 <?php
-echo "1";
+//APP入口
+require __DIR__ . '/bootstrap.php';
+
