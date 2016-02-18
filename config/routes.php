@@ -1,10 +1,3 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: donghai
- * Date: 16/2/17
- * Time: 下午10:04
- */
-use NoahBuscher\Macaw\Macaw;
-Macaw::get('/fuck', 'HomeController@home');
-Macaw::dispatch();
+use sunkangchina\phprouter\Route;
+Route::get('/','site'); //路由到Controllers\Site类中的indexAction方法

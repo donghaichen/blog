@@ -8,6 +8,8 @@
 // Autoload 自动载入
 define('APP_PATH', __DIR__);
 define('CONF_PATH', __DIR__ . '/config');
+//设置时间区
+date_default_timezone_set("PRC");
 
 require APP_PATH . '/vendor/autoload.php';
 require APP_PATH . '/config/routes.php';
