@@ -1,5 +1,5 @@
 <?php
-//namespace App\Controllers;
+namespace App\Controllers;
 class HomeController extends BaseController
 {
     public function home()
@@ -10,7 +10,7 @@ class HomeController extends BaseController
 //        $user->username = 'someone';
 //        $user->email = 'some@overtrue.me';
 //        $user->save();
-        echo "hello world";
+        return "hello world";
 
     }
 

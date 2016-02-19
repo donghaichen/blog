@@ -1,5 +1,5 @@
 <?php
-//namespace App\Controllers;
+namespace App\Controllers;
 class BaseController
 {
     public function __construct()
