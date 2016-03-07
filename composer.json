@@ -15,7 +15,9 @@
         "php": ">=5.5.9",
         "illuminate/database": "^5.2",
         "monolog/monolog": "~2.0@dev",
-        "clovers/route": "dev-master"
+        "clovers/route": "1.0",
+        "league/route": "~1.0@dev",
+        "cutephp/route": "dev-master"
     },
     "require-dev": {
     },

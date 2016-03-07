@@ -10,7 +10,7 @@ class HomeController extends BaseController
 //        $user->username = 'someone';
 //        $user->email = 'some@overtrue.me';
 //        $user->save();
-        return "hello world";
+        echo "hello world";
 
     }
 

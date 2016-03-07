@@ -1,6 +1,13 @@
 <?php
+//PGF-Router
 use Illuminate\Route\Route;
-Route::get('/', 'Controller@index');
-$controller = new $namespace . '\0' . ucwords($class) . 'Controller';
-var_dump(1);
-return call_user_func_array([$controller, $name], $request);
+$router = new Route();
+Route::get('/', 'HomeController@index');
+Route::get('/user/', 'UserController@index');
+Route::get('/user/{id}', 'UserController@show');
+Route::post('/user/{id}', 'UserController@save');
+Route::any('/message/send/{user?}', 'MessagesController@send');
+
+$router->addRoute('any', '/message/send/{user?}', 'MessagesController@send');
+$dump = $router->findRoute('post', '/message/send/John');
+var_dump($dump);
