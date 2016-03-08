@@ -2,7 +2,7 @@
 namespace App\Controllers;
 class HomeController extends BaseController
 {
-    public function home()
+    public function index()
     {
 //        $users = User::find(2);
 //        $users = User::all();
