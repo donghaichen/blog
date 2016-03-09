@@ -1,5 +1,8 @@
 <?php
 namespace App\Controllers;
+use Clovers\Session\Session;
+use Clovers\Session\Storage\File;
+
 class HomeController extends BaseController
 {
     public function index()
@@ -10,8 +13,10 @@ class HomeController extends BaseController
 //        $user->username = 'someone';
 //        $user->email = 'some@overtrue.me';
 //        $user->save();
-        echo "hello world";
-
+        $session = new Session(new File(CACHE_PATH . '/session000'));
+        $session->set("age","100");
+        $name = $session->get('age');
+        var_dump($name);
     }
 
 }

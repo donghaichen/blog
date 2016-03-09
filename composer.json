@@ -13,7 +13,8 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "clovers/route": "~3.0"
+        "clovers/route": "dev-master",
+        "clovers/session": "dev-master"
     },
     "require-dev": {
     },
