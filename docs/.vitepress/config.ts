@@ -19,7 +19,7 @@ export default defineConfig({
     themeConfig: {
         siteTitle: '日记本',
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+            { icon: 'github', link: 'https://github.com/donghaichen' },
         ],
         editLink: {
             pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
