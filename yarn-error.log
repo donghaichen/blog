@@ -1,0 +1,31 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\info\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Users\info\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\info\bin;D:\Program Files\Python311\Scripts;D:\Program Files\Python311;D:\jobs\脚本\安驾营\corretto-1.8.0_282\bin;%C_E;64T_REDIST11%bin\Intel64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\ProgramData\chocolatey\bin;C:\Program Files\PuTTY;C:\Users\info\Desktop\jobs\php-8.0.9-nts-Win32-vs16-x64;C:\ProgramData\ComposerSetup\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\nodejs;C:\Program Files (x86)\Tencent\微信web开发者工具\dll;D:\job;D:\soft\微信web开发者工具\dll;C:\Program Files\Git\cmd;D:\jobs\soft\微信web开发者工具\dll;D:\Program Files\Redis;C:\Program Files\Docker\Docker\resources\bin;D:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\info\AppData\Local\pnpm;C:\Users\info\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.2\bin;C:\Program Files\JetBrains\PhpStorm 2020.3.1\bin;C:\Users\info\AppData\Roaming\Composer\vendor\bin;C:\Users\info\AppData\Roaming\npm;D:\jobs\soft\ffmpeg-n5.0-latest-win64-gpl-5.0\ffmpeg-n5.0-latest-win64-gpl-5.0\bin;D:\jobs\soft\php-8.1.1-nts-Win32-vs16-x64;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  16.13.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: Can't answer a question unless a user TTY
+      at ConsoleReporter.question (C:\Users\info\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:96815:59)
+      at Object.<anonymous> (C:\Users\info\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:89088:38)
+      at Generator.next (<anonymous>)
+      at step (C:\Users\info\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\info\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
