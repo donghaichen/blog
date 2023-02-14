@@ -22,7 +22,7 @@ export default defineConfig({
             { icon: 'github', link: 'https://github.com/donghaichen' },
         ],
         editLink: {
-            pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+            pattern: 'https://github.com/donghaichen/blog/blob/dev/docs/:path',
             text: 'Edit this page on GitHub'
         },
         nav: [
